@@ -1,6 +1,6 @@
-@Dimeji Smile
+# @Dimeji Smile
 
-Oladimeji Ridwan Pamilerin
+# Oladimeji Ridwan Pamilerin
 
 Frontend
 
