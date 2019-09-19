@@ -1,0 +1,254 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-image: linear-gradient(to right, rgba(9, 209, 216, 0.52), rgba(16, 188, 114, 0.73)), url('images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.logo img {
+	width: 150px;
+	margin: 20px 20px 50px 20px;
+}
+.wrapper {
+	margin: 3px;
+	display: flex;
+	justify-content: center;
+
+}
+.form-container {
+	width: 500px;
+	height: 475px;
+	background-color: #fff;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 50px #1e4c328c;
+	border-radius: 37px;
+	padding-bottom: 10px;
+
+}
+.form-header {
+	margin: 20px;
+	text-align: center;
+}
+.form-header span {
+	padding: 5px 35px;
+    color: #06C695;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#signin {
+	border-bottom: 2px solid #06C695;
+}
+.other-signin-option {
+	text-align: center;
+	padding: 30px 0 0 0;
+}
+.other-signin-option span {
+	padding: 10px;
+}
+.signintext {
+	text-align: center;
+	color: #707070;
+	margin: 20px;
+}
+#loginform {
+	text-align: center;
+}
+#loginform .input-container {
+	display: block;
+	justify-content: center;
+	display: flex;
+ 	width: 100%;
+}
+#loginform p {
+	font-size: 14px;
+}
+input {
+	font-size: 16px;
+	color: #707070;
+	font-weight: bold;
+	outline: none;
+	margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 15px;
+	border: 0;
+	border-bottom: 1px solid #06C695;
+	transition: border 0.4s ease-in;
+}
+input::-webkit-input-placeholder {
+	color: #C7C7C7;
+}
+input:focus {
+	border-bottom: 4px solid #06C695;
+	transition: border 0.36s ease-in;
+}
+button {
+	width: 60%;
+	border-radius: 30px;
+	font-size: 18px;
+	background-color: #06C695;
+	color: #fff;
+	font-weight: bold;
+	outline: 0px;
+	border: 0px;
+	padding: 15px;
+	cursor: pointer;
+}
+button:hover {
+	transition: all 0.36s ease-in;
+	opacity: 0.8;
+}
+.signin-footer {
+	text-align: center;
+	font-size: 14px;
+}
+.signin-footer p span {
+	color: #06C695;
+	font-weight: bold;
+}
+
+                                  /*signup style starts here*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #272626;
+}
+a {
+	text-decoration: none;
+	color: #06C695;
+}
+a:hover {
+	transition: all 0.4s ease-in;
+	letter-spacing: 2px;
+
+}
+header {
+	background-image: linear-gradient(to right, rgba(9, 209, 216, 0.52), rgba(16, 188, 114, 0.73)), url('images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.logo img {
+	width: 150px;
+	margin: 20px 20px 50px 20px;
+}
+.wrapper {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.wrapper .text {
+	margin: 10px 50px;
+	padding: 0;
+	color: #fff;
+	width: 500px;
+}
+.text h1 {
+	font-size: 79px;
+	line-height: ;
+}
+.text p {
+	color: #ffe;
+	line-height: 30px;
+}
+.text button {
+	box-shadow: 5px 5px 50px #1e4c328c;
+	padding: 10px !important;
+	margin: 0 !important;
+}
+.form-container {
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 50px #1e4c328c;
+	border-radius: 37px;
+}
+.form-header {
+	margin: 20px;
+	text-align: center;
+}
+.form-header span {
+	padding: 5px 35px;
+    color: #06C695;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#signup {
+	border-bottom: 2px solid #06C695;
+}
+.other-signin-option {
+	text-align: center;
+	padding: 30px 0 0 0;
+}
+.other-signin-option span {
+	padding: 10px;
+}
+.signintext {
+	text-align: center;
+	color: #707070;
+	margin: 20px;
+}
+form {
+	text-align: center;
+}
+form .input-container {
+	display: block;
+	justify-content: center;
+	display: flex;
+ 	width: 100%;
+}
+form p {
+	font-size: 14px;
+}
+input {
+	font-size: 16px;
+	color: #707070;
+	font-weight: bold;
+	outline: none;
+	margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 15px;
+	border: 0;
+	border-bottom: 1px solid #06C695;
+	transition: border 0.4s ease-in;
+}
+input::-webkit-input-placeholder {
+	color: #C7C7C7;
+}
+input:focus {
+	border-bottom: 4px solid #06C695;
+	transition: border 0.36s ease-in;
+}
+button {
+	width: 60%;
+	border-radius: 30px;
+	font-size: 18px;
+	background-color: #06C695;
+	color: #fff;
+	font-weight: bold;
+	outline: 0px;
+	border: 0px;
+	padding: 15px;
+	cursor: pointer;
+}
+button:hover {
+	transition: all 0.36s ease-in;
+	opacity: 0.8;
+}
+.signin-footer {
+	text-align: center;
+	font-size: 14px;
+}
+.signin-footer p span {
+	color: #06C695;
+	font-weight: bold;
+}

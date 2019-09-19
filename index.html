@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page- Team Awolowo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+	<link rel="icon" href="./images/logo.png">
+	
+	
+</head>
+<body>
+ <header>
+ 	<div class="logo">
+ 		<img src="./images/logo.png" alt="Team Awolowo">
+ 	</div>
+ 	<div class="wrapper">
+	 	<div class="form-container">
+	 		<div class="form-header">
+	 			<span id="signin">SIGN IN</span>
+	 			<span id="signup"><a href="signup.html">SIGN UP</a></span>
+	 		</div>
+	 		<div class="other-signin-option">
+	 			<span class="fb">
+	 				<img src="images/fbicon.png">
+	 			</span>	
+	 			<span class="gplus">
+	 				<img src="images/gicon.png">
+	 			</span>
+	 		</div>
+	 		<div class="signintext">
+	 			<span id="text">or you can use your email:</span>
+	 			<span id="error" style="color: red"></span><br>
+	 		</div>		
+	 		<div id="loginform" method="post">
+	 			<div class="input-container">
+	 				<span><img src="images/email.png" width="20px"></span>
+	 				<input type="text" id="username" name="username" placeholder="UserName" required="" value="">
+ 				</div>
+ 				<div class="input-container">
+	 				<span><img src="images/pass.png" width="20px"></span>
+	 				<input type="password"id="password" name="pass" placeholder="********" required="" value="">
+	 			</div>
+	 			<p>forgot password?</p>
+	 			<p><button onclick="submit()">SIGN IN</button></p>
+	 			
+	 		</div>
+	 		<script type="text/javascript">
+			
+			function submit(){
+
+				var usertype=document.getElementById('username').value;
+				var pwdtype=document.getElementById('password').value;
+				var username="@xyluz";
+				var password="admit123";
+
+			if (usertype==username && pwdtype==password){
+				window.location.href="https://lucid.blog/hngi6/post/front-end-back-end-design-task-1-6c2";
+			}
+
+			else {
+				document.getElementById("error").innerHTML='username or password is incorrect';
+				location.reload(true);
+			}
+
+			}
+
+		
+	</script>
+	 		<div class="signin-footer">
+	 			<p>Don't have an account? <span><a href="signup.html">Sign Up</a></span></p>
+	 		</div>	
+	 	</div>	
+	</div> 		
+ </header>
+</body>
+</html>
