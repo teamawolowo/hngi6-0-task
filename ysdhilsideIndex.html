@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="ysdhilsideStyle.css"/>
+    <title>Awolowo HNG Group</title>
+</head>
+<body>
+ <div class="nav">
+     <img src="https://res.cloudinary.com/dexcjehc5/image/upload/v1568891870/logo.png"/>
+ </div>
+    <div class="form-container"> 
+        
+        <div class="center">
+            <span id="sign-in-link">SIGN IN</span> | <span id="sign-up-link">SIGN UP</span> 
+        </div>
+
+        <form action="" id="login">
+            
+            <input type="email" placeholder="Email Address" name="lEmail" required/><br/>
+            <input type="password" placeholder="Passowrd" name="lPassword" required/><br/>
+            <button type="submit" id="sign-ip-button">SIGN IN</button>
+        </form>
+
+        <form action="" id="sign-up">
+                <input type="text" placeholder="Full Name" name="sFullName" required/><br/>
+                <input type="email" placeholder="Email Address" name="sEmail" required/><br/>
+                <input type="password" placeholder="Passowrd" name="sPassword" required/><br/>
+                <button type="submit" id="sign-up-button">SIGN UP</button>
+        </form>
+    </div>
+
+
+    <br/><br/><br/><br/>
+    <div id="footer">
+        Awolowo Group HNGi6 &copy; 2019
+    </div>
+    
+    
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+      $('#sign-up').hide();
+
+      let signUp = $('#sign-up').hide();
+      let signIn = $('#login');
+
+      $("#sign-in-link").on('click', function(){
+        signUp.slideUp(1000);
+        signIn.slideDown(1000);
+        $("#sign-in-link").css({
+            "text-decoration": "underline"
+        });
+        $("#sign-up-link").css({
+            "text-decoration": "none"
+        });
+      });
+
+      $("#sign-up-link").on('click', function(){
+        signIn.slideUp(1000);
+        signUp.slideDown(1000);
+        $("#sign-up-link").css({
+            "text-decoration": "underline"
+        });
+        $("#sign-in-link").css({
+            "text-decoration": "none"
+        });
+      });
+
+      $("#sign-up-button").on('click', function(){
+          const form = $("#sign-up");
+          const signUpData = getF
+      });
+    
+  });
+  </script>
+</body>
+</html>
